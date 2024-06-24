@@ -1,5 +1,4 @@
-i = 0
-while i < 20:
-    print("Hello %d" % i)
-    i += 1
-   
+l = int(input("รับค่า"))
+while l>=0:
+    print(l**2)
+    l = int(input("รับค่า"))
